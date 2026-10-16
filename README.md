@@ -1,6 +1,6 @@
 # Machine Learning Algorithms in Python
 
-> This repository contains practical exercises on fundamental machine learning algorithms implemented in Python using Scikit-learn. It covers both supervised and unsupervised learning, along with **model evaluation**, **cross-validation**, and **hyperparameter optimization**. The notebook applies different algorithms to the Iris and Breast Cancer Wisconsin datasets and explores their use through model fitting, prediction, evaluation, and visualization.
+> This repository contains practical exercises on fundamental machine learning algorithms implemented in Python using Scikit-learn. It covers both ***supervised*** and ***unsupervised learning***, along with **model evaluation**, **cross-validation**, and **hyperparameter optimization**. The notebook applies different algorithms to the Iris and Breast Cancer Wisconsin datasets and explores their use through model fitting, prediction, evaluation, and visualization.
 
 # Data Preparation
 
