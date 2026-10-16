@@ -1,69 +1,59 @@
 # Machine Learning Algorithms in Python
 
-> This repository contains a ***Jupyter Notebook exploring fundamental machine learning algorithms and concepts using Python and Scikit-learn***. The notebook uses the **Iris dataset** to practice **classification**, **regression**, **model evaluation**, and **cross-validation**. It also includes a simple **linear regression** example with manually defined data to illustrate how a regression model learns relationships between variables. The project serves as a hands-on introduction to implementing machine learning algorithms, training models, and evaluating their predictive performance.
+> This repository contains practical exercises on fundamental machine learning algorithms implemented in Python using Scikit-learn. It covers both supervised and unsupervised learning, along with **model evaluation**, **cross-validation**, and **hyperparameter optimization**. The notebook applies different algorithms to the Iris and Breast Cancer Wisconsin datasets and explores their use through model fitting, prediction, evaluation, and visualization.
 
-## 1. Data Exploration and Preparation
+# Data Preparation
 
-- Loading the Iris dataset using Scikit-learn.
-- Exploring dataset features and target labels.
-- Converting the dataset into a pandas DataFrame.
-- Examining relationships between input features.
+- Loading and exploring datasets using Scikit-learn
+- Inspecting features, target labels, and dataset structure
+- Creating and manipulating datasets with Pandas
+- Splitting data into training and test sets
 
+## Supervised Learning
 
-## 2. K-Nearest Neighbors (KNN)
+- [x] Classification
+- [x] K-Nearest Neighbors (KNN)
+- [x] Logistic Regression
+- [x] Decision Trees
+- [x] Gaussian Naive Bayes
+- [x] Multi-Layer Perceptron (MLP) Neural Networks
+- [x] Regression
+- [x] Linear Regression
+- [x] Lasso Regression
+- [x] Ridge Regression
 
-- Implementing a KNN classifier.
-- Making predictions for new samples.
-- Splitting the dataset into training and testing sets.
-- Evaluating classification accuracy.
-- Investigating how the number of neighbors affects training and testing accuracy.
+## Unsupervised Learning
 
-## 3. Linear Regression
+- [x] Clustering Algorithms
+- [x] K-Means Clustering
+- [x] Hierarchical Clustering
+- [x] Mean Shift
+- [x] DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
 
-- Implementing linear regression on a small, manually defined dataset.
-- Fitting a regression model to observed data.
-- Generating predictions using the fitted model.
+The clustering exercises include cluster visualization and exploration of model properties, such as K-Means inertia and hierarchical clustering dendrograms.
 
+### Model Evaluation and Validation
 
-## 4. Model Evaluation
+- Train-test splitting
+- Accuracy scoring
+- Confusion matrices
+- Classification reports
+- Mean Squared Error (MSE)
+- K-Fold Cross-Validation
+- ROC curve and ROC-AUC analysis
 
-- Splitting data into training and testing sets.
-- Calculating Mean Squared Error (MSE).
-- Evaluating regression predictions against the target values.
+### Hyperparameter Optimization
 
-## 5. K-Fold Cross-Validation
+- Grid Search Cross-Validation (GridSearchCV)
+- Randomized Search Cross-Validation (RandomizedSearchCV)
+- Exploring the effect of the number of neighbors in KNN
+- Tuning selected model parameters
 
-- Applying cross-validation with five folds.
-- Examining cross-validation scores.
-- Calculating the mean score across folds.
+# Datasets
 
-## 6. Lasso Regression
+The notebook uses the following datasets available through Scikit-learn:
 
-- Fitting a Lasso regression model.
-- Examining regression coefficients.
-- Evaluating predictions using Mean Squared Error.
+- **Iris Dataset**: Used for classification, regression exercises, and clustering.
+- **Breast Cancer Wisconsin Dataset**: Used for binary classification and model evaluation.
 
-## 7. Ridge Regression
-
-- Fitting a Ridge regression model.
-- Evaluating its predictions using Mean Squared Error.
-- Exploring regularized linear regression as a machine learning technique.
-
-# Dataset
-
-The notebook uses the Iris dataset, a classic dataset for introductory machine learning.
-
-It contains measurements of iris flowers across four features:
-
-- Sepal length
-- Sepal width
-- Petal length
-- Petal width
-
-The target variable represents three Iris species:
-
-- Setosa
-- Versicolor
-- Virginica
-
-**The dataset is loaded directly from Scikit-learn, so no separate dataset download is required.**
+A small manually defined dataset is also used to demonstrate linear regression.
